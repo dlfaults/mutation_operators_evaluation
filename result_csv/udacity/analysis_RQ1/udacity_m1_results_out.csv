@@ -1,0 +1,2 @@
+num,perc,min,max,mean,orig_min,orig_max,orig_mean,sd,p-value,cohen_eff,power,killed
+1,100,-0.50814569,0.647847712,-0.03947017,-0.503317893,0.692411184,-0.036364084,0.093685606,9.56E-09,negligible,0.999999979,nk

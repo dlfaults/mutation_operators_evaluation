@@ -1,0 +1,2 @@
+"","num","perc","min","max","mean","orig_mean","sd","p-value","cohen_eff","power","killed","interval","bayesian_killed","glm_p","glm_killed","1percent","5percent","10percent"
+"1",1,50,0.97530186,0.9854556,0.981262354,0.983995616,0.00269405900321738,0.00160076232473967,"large",0.999999921270997,"k","-0.0101138830095891:0.0103260213594675","nk",0.0006308433796589,"k",0,0,0

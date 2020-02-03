@@ -1,0 +1,71 @@
+for 2, error:depth should be 6n+2 (eg 20, 32, 44 in [a])
+for 3, error:depth should be 6n+2 (eg 20, 32, 44 in [a])
+for 4, error:can't multiply sequence by non-int of type 'tuple'
+for 5, error:depth should be 6n+2 (eg 20, 32, 44 in [a])
+for 6, error:depth should be 6n+2 (eg 20, 32, 44 in [a])
+for 9, error:2 root error(s) found.
+  (0) Resource exhausted: OOM when allocating tensor with shape[128,32,16,16] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node conv2d_358/convolution}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+	 [[loss/add_650/_29957]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+  (1) Resource exhausted: OOM when allocating tensor with shape[128,32,16,16] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+	 [[{{node conv2d_358/convolution}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info.
+
+0 successful operations.
+0 derived errors ignored.
+
+for 27, error:Value passed to parameter 'shape' has DataType float32 not in list of allowed values: int32, int64
+
+for 29, error:Cannot parse tensor from proto: dtype: DT_FLOAT
+tensor_shape {
+  dim {
+    size: 3
+  }
+  dim {
+    size: 3
+  }
+  dim {
+    size: 65536
+  }
+  dim {
+    size: 65536
+  }
+}
+float_val: 0
+
+	 [[node training/Adam/zeros_76 (defined at /home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:702) ]]
+
+Original stack trace for 'training/Adam/zeros_76':
+  File "cifar_mutations_run.py", line 444, in <module>
+    loss, acc =  mutant29.train_model(x_train, y_train, x_test, y_test, model_name)
+  File "/home/ubuntu/cifar_syntactic_mutations/mutant29.py", line 162, in train_model
+    callbacks)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/engine/training.py", line 1010, in fit
+    self._make_train_function()
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/engine/training.py", line 509, in _make_train_function
+    loss=self.total_loss)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/optimizers.py", line 487, in get_updates
+    ms = [K.zeros(K.int_shape(p), dtype=K.dtype(p)) for p in params]
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/optimizers.py", line 487, in <listcomp>
+    ms = [K.zeros(K.int_shape(p), dtype=K.dtype(p)) for p in params]
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py", line 702, in zeros
+    v = tf.zeros(shape=shape, dtype=tf_dtype, name=name)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py", line 1883, in zeros
+    output = fill(shape, constant(zero, dtype=dtype), name=name)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/ops/gen_array_ops.py", line 3613, in fill
+    "Fill", dims=dims, value=value, name=name)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 788, in _apply_op_helper
+    op_def=op_def)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 507, in new_func
+    return func(*args, **kwargs)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3616, in create_op
+    op_def=op_def)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2005, in __init__
+    self._traceback = tf_stack.extract_stack()
+errNum:8

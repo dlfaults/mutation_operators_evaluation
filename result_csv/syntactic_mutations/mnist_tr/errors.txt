@@ -1,0 +1,88 @@
+for 1, error:unsupported operand type(s) for -: 'tuple' and 'tuple'
+for 2, error:unsupported operand type(s) for -: 'tuple' and 'tuple'
+for 3, error:index 14 is out of bounds for axis 1 with size 5
+for 4, error:index 12 is out of bounds for axis 1 with size 5
+for 5, error:unsupported operand type(s) for -: 'list' and 'list'
+for 13, error:cannot reshape array of size 22375360 into shape (28540,29,28,1)
+for 14, error:cannot reshape array of size 22375360 into shape (28540,28,29,1)
+for 18, error:cannot reshape array of size 22375360 into shape (28540,28,28,2)
+for 19, error:cannot reshape array of size 28540 into shape (28540,28,28,1)
+for 21, error:cannot reshape array of size 22375360 into shape (28,28,28,1)
+for 22, error:cannot reshape array of size 7195 into shape (7195,28,28,1)
+for 24, error:cannot reshape array of size 5640880 into shape (28,28,28,1)
+for 25, error:data type "mutpy" not understood
+for 26, error:data type "" not understood
+for 27, error:data type "mutpy" not understood
+for 28, error:data type "" not understood
+for 31, error:tuple index out of range
+for 32, error:tuple index out of range
+for 33, error:Unknown loss function:mutpy
+for 34, error:Unknown loss function:
+for 35, error:Unknown optimizer: mutpy
+for 36, error:Unknown optimizer: 
+for 37, error:Unknown metric function:mutpy
+for 38, error:Unknown metric function:
+for 42, error:list index out of range
+for 43, error:Input arrays should have the same number of samples as target arrays. Found 33622 input samples and 28540 target samples.
+for 44, error:index 5 is out of bounds for axis 1 with size 5
+for 45, error:Input arrays should have the same number of samples as target arrays. Found 8426 input samples and 7195 target samples.
+for 46, error:index 5 is out of bounds for axis 1 with size 5
+for 47, error:Input arrays should have the same number of samples as target arrays. Found 22378 input samples and 27460 target samples.
+for 48, error:Input arrays should have the same number of samples as target arrays. Found 27460 input samples and 22378 target samples.
+for 49, error:index 255 is out of bounds for axis 1 with size 5
+for 50, error:Input arrays should have the same number of samples as target arrays. Found 5574 input samples and 6805 target samples.
+for 51, error:Input arrays should have the same number of samples as target arrays. Found 6805 input samples and 5574 target samples.
+for 52, error:index 255 is out of bounds for axis 1 with size 5
+for 53, error:The `padding` argument must be one of "valid", "same" (or "causal" for Conv1D). Received: mutpy
+for 54, error:The `padding` argument must be one of "valid", "same" (or "causal" for Conv1D). Received: 
+for 55, error:Unknown activation function:mutpy
+for 56, error:Unknown activation function:
+for 57, error:Unknown activation function:mutpy
+for 58, error:Unknown activation function:
+for 61, error:Unknown activation function:mutpy
+for 62, error:Unknown activation function:
+for 64, error:Unknown activation function:mutpy
+for 65, error:Unknown activation function:
+for 68, error:Input arrays should have the same number of samples as target arrays. Found 22378 input samples and 28540 target samples.
+for 69, error:Input arrays should have the same number of samples as target arrays. Found 33622 input samples and 28540 target samples.
+for 70, error:index 9 is out of bounds for axis 1 with size 5
+for 71, error:index 5 is out of bounds for axis 1 with size 5
+for 72, error:Input arrays should have the same number of samples as target arrays. Found 5574 input samples and 7195 target samples.
+for 73, error:Input arrays should have the same number of samples as target arrays. Found 8426 input samples and 7195 target samples.
+for 74, error:index 7 is out of bounds for axis 1 with size 5
+for 75, error:index 5 is out of bounds for axis 1 with size 5
+for 76, error:Input arrays should have the same number of samples as target arrays. Found 33622 input samples and 27460 target samples.
+for 77, error:Input arrays should have the same number of samples as target arrays. Found 22378 input samples and 27460 target samples.
+for 78, error:index 255 is out of bounds for axis 1 with size 5
+for 79, error:Input arrays should have the same number of samples as target arrays. Found 27460 input samples and 22378 target samples.
+for 80, error:Input arrays should have the same number of samples as target arrays. Found 8426 input samples and 6805 target samples.
+for 81, error:Input arrays should have the same number of samples as target arrays. Found 5574 input samples and 6805 target samples.
+for 82, error:index 251 is out of bounds for axis 1 with size 5
+for 83, error:Input arrays should have the same number of samples as target arrays. Found 6805 input samples and 5574 target samples.
+for 85, error:name 'batch_size' is not defined
+for 86, error:name 'num_classes' is not defined
+for 87, error:name 'epochs' is not defined
+for 88, error:name 'img_rows' is not defined
+for 89, error:name 'filters' is not defined
+for 90, error:name 'pool_size' is not defined
+for 91, error:name 'kernel_size' is not defined
+for 92, error:name 'input_shape' is not defined
+for 93, error:local variable 'x_train' referenced before assignment
+for 94, error:local variable 'x_test' referenced before assignment
+for 95, error:No loop matching the specified signature and casting
+was found for ufunc true_divide
+for 96, error:No loop matching the specified signature and casting
+was found for ufunc true_divide
+for 97, error:name 'y_train' is not defined
+for 98, error:name 'y_test' is not defined
+for 102, error:name 'score' is not defined
+for 103, error:'NoneType' object is not iterable
+for 104, error:name 'x_train_lt5' is not defined
+for 105, error:name 'y_train_lt5' is not defined
+for 106, error:name 'x_test_lt5' is not defined
+for 107, error:name 'y_test_lt5' is not defined
+for 108, error:name 'x_train_gte5' is not defined
+for 109, error:name 'y_train_gte5' is not defined
+for 110, error:name 'x_test_gte5' is not defined
+for 111, error:name 'y_test_gte5' is not defined
+errNum:85

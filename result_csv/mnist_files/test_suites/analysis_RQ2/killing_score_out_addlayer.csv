@@ -1,0 +1,17 @@
+Mutation,Accuracy5,Accuracy50,AccuracyEasy,AccuracyDiff,Accuracy1,AccuracyEasy5,AccuracyDiff5
+mnist_M2_small_ts,nk,nk,nk,nk,nk,nk,nk
+mnist_M5_small_ts,nk,k,nk,nk,nk,nk,nk
+mnist_M4P_small_ts,k,k,k,k,k,k,k
+mnist_M4R_small_ts,k,k,nk,k,nk,nk,nk
+mnist_addlayer_1,nk,k,nk,k,nk,nk,nk
+mnist_addlayer_2,k,k,nk,nk,nk,nk,nk
+mnist_addlayer_3,nk,k,nk,nk,nk,nk,k
+mnist_addlayer_4,k,k,nk,k,nk,nk,nk
+mnist_deletelayer_1,k,k,nk,k,nk,nk,nk
+mnist_deletelayer_2,nk,k,nk,k,nk,nk,nk
+mnist_deletelayer_3,nk,nk,nk,nk,nk,nk,k
+mnist_deletelayer_4,nk,k,nk,k,nk,nk,nk
+mnist_deleteact_1,nk,nk,nk,nk,nk,nk,nk
+mnist_deleteact_2,nk,nk,nk,nk,nk,nk,nk
+mnist_deleteact_3,k,k,k,k,k,k,k
+,6,11,2,8,2,2,4

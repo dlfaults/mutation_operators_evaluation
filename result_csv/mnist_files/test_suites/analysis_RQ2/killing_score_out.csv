@@ -1,0 +1,5 @@
+"","Mutation","Accuracy5","Accuracy50","AccuracyEasy","AccuracyDiff","Accuracy1","AccuracyEasy5","AccuracyDiff5"
+"1","mnist_M2_small_ts","nk","nk","nk","nk","nk","nk","nk"
+"2","mnist_M5_small_ts","nk","k","nk","nk","nk","nk","nk"
+"3","mnist_M4P_small_ts","k","k","k","k","k","k","k"
+"4","mnist_M4R_small_ts","k","k","nk","k","nk","nk","nk"

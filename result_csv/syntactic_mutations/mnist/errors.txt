@@ -1,0 +1,37 @@
+for 8, error:cannot reshape array of size 43904000 into shape (56000,29,28,1)
+for 9, error:cannot reshape array of size 43904000 into shape (56000,28,29,1)
+for 10, error:cannot reshape array of size 43904000 into shape (28,28,28,1)
+for 11, error:cannot reshape array of size 43904000 into shape (56000,28,28,2)
+for 12, error:cannot reshape array of size 10976000 into shape (28,28,28,1)
+for 13, error:cannot reshape array of size 10976000 into shape (14000,28,28,2)
+for 14, error:Error when checking input: expected conv2d_1_input to have shape (28, 28, 2) but got array with shape (28, 28, 1)
+for 15, error:data type "mutpy" not understood
+for 16, error:data type "" not understood
+for 17, error:data type "mutpy" not understood
+for 18, error:data type "" not understood
+for 24, error:Unknown activation function:mutpy
+for 25, error:Unknown activation function:
+for 29, error:Unknown activation function:mutpy
+for 30, error:Unknown activation function:
+for 35, error:Unknown activation function:mutpy
+for 36, error:Unknown activation function:
+for 38, error:Unknown activation function:mutpy
+for 39, error:Unknown activation function:
+for 40, error:Unknown metric function:mutpy
+for 41, error:Unknown metric function:
+for 45, error:list index out of range
+for 46, error:name 'batch_size' is not defined
+for 47, error:name 'num_classes' is not defined
+for 48, error:name 'epochs' is not defined
+for 49, error:name 'img_rows' is not defined
+for 50, error:Error when checking input: expected conv2d_7_input to have 4 dimensions, but got array with shape (56000, 28, 28)
+for 51, error:Error when checking input: expected conv2d_9_input to have 4 dimensions, but got array with shape (14000, 28, 28)
+for 52, error:name 'input_shape' is not defined
+for 53, error:No loop matching the specified signature and casting
+was found for ufunc true_divide
+for 54, error:No loop matching the specified signature and casting
+was found for ufunc true_divide
+for 55, error:Error when checking target: expected dense_12 to have shape (10,) but got array with shape (1,)
+for 56, error:Error when checking target: expected dense_14 to have shape (10,) but got array with shape (1,)
+for 57, error:name 'model' is not defined
+errNum:34

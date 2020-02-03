@@ -1,0 +1,938 @@
+coverage:
+  all_nodes: 0
+  covered_nodes: 0
+mutation_score: 0.0
+mutations:
+- exception_traceback: null
+  killer: null
+  module: &id001 !!python/module:cifar_train ''
+  mutations:
+  - lineno: 49
+    operator: ASR
+  number: 1
+  status: survived
+  tests_run: 1
+  time: 0.00757908821105957
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 49
+    operator: ASR
+  number: 2
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 50
+    operator: ASR
+  number: 3
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 50
+    operator: ASR
+  number: 4
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: CRP
+  number: 5
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 11
+    operator: CRP
+  number: 6
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: CRP
+  number: 7
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: CRP
+  number: 8
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: CRP
+  number: 9
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: CRP
+  number: 10
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: CRP
+  number: 11
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: CRP
+  number: 12
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 18
+    operator: CRP
+  number: 13
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 19
+    operator: CRP
+  number: 14
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 19
+    operator: CRP
+  number: 15
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 20
+    operator: CRP
+  number: 16
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 20
+    operator: CRP
+  number: 17
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 20
+    operator: CRP
+  number: 18
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 21
+    operator: CRP
+  number: 19
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 21
+    operator: CRP
+  number: 20
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 22
+    operator: CRP
+  number: 21
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 22
+    operator: CRP
+  number: 22
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 23
+    operator: CRP
+  number: 23
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 25
+    operator: CRP
+  number: 24
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 25
+    operator: CRP
+  number: 25
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 25
+    operator: CRP
+  number: 26
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 25
+    operator: CRP
+  number: 27
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 25
+    operator: CRP
+  number: 28
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 26
+    operator: CRP
+  number: 29
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 26
+    operator: CRP
+  number: 30
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 27
+    operator: CRP
+  number: 31
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 27
+    operator: CRP
+  number: 32
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 27
+    operator: CRP
+  number: 33
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: CRP
+  number: 34
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: CRP
+  number: 35
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 29
+    operator: CRP
+  number: 36
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 29
+    operator: CRP
+  number: 37
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 30
+    operator: CRP
+  number: 38
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 33
+    operator: CRP
+  number: 39
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: CRP
+  number: 40
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: CRP
+  number: 41
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 35
+    operator: CRP
+  number: 42
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 37
+    operator: CRP
+  number: 43
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 37
+    operator: CRP
+  number: 44
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: CRP
+  number: 45
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: CRP
+  number: 46
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 43
+    operator: CRP
+  number: 47
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 43
+    operator: CRP
+  number: 48
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 45
+    operator: CRP
+  number: 49
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 45
+    operator: CRP
+  number: 50
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: CRP
+  number: 51
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: CRP
+  number: 52
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: CRP
+  number: 53
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: CRP
+  number: 54
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 49
+    operator: CRP
+  number: 55
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 50
+    operator: CRP
+  number: 56
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 61
+    operator: CRP
+  number: 57
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: CRP
+  number: 58
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: CRP
+  number: 59
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 10
+    operator: SDL
+  number: 60
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 11
+    operator: SDL
+  number: 61
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 12
+    operator: SDL
+  number: 62
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 13
+    operator: SDL
+  number: 63
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 14
+    operator: SDL
+  number: 64
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 16
+    operator: SDL
+  number: 65
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 17
+    operator: SDL
+  number: 66
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 19
+    operator: SDL
+  number: 67
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 20
+    operator: SDL
+  number: 68
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 21
+    operator: SDL
+  number: 69
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 22
+    operator: SDL
+  number: 70
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 23
+    operator: SDL
+  number: 71
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 25
+    operator: SDL
+  number: 72
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 26
+    operator: SDL
+  number: 73
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 27
+    operator: SDL
+  number: 74
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 28
+    operator: SDL
+  number: 75
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 29
+    operator: SDL
+  number: 76
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 30
+    operator: SDL
+  number: 77
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 32
+    operator: SDL
+  number: 78
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 33
+    operator: SDL
+  number: 79
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 34
+    operator: SDL
+  number: 80
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 35
+    operator: SDL
+  number: 81
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 36
+    operator: SDL
+  number: 82
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 37
+    operator: SDL
+  number: 83
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 40
+    operator: SDL
+  number: 84
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 43
+    operator: SDL
+  number: 85
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: SDL
+  number: 86
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: SDL
+  number: 87
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 52
+    operator: SDL
+  number: 88
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 58
+    operator: SDL
+  number: 89
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 61
+    operator: SDL
+  number: 90
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 62
+    operator: SDL
+  number: 91
+  status: incompetent
+  tests_run: 0
+  time: 0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 18
+    operator: SIR
+  number: 92
+  status: incompetent
+  tests_run: 0
+  time: 0
+number_of_tests: 1
+targets:
+- /Users/usi/Documents/precrime_mutation/syntactic_mutations/cifar/cifar_train.py
+tests:
+- name: cifar_test
+  target: null
+  time: 0.0001518726348876953
+time_stats:
+  create_mutant_module: 0.6421551704406738
+  create_target_ast: 0.0019240379333496094
+  mutate_module: 3.8372228145599365
+  run_tests_with_mutant: 0.01658320426940918
+total_time: 5.472122669219971

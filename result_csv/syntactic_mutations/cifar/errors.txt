@@ -1,0 +1,38 @@
+for 11, error:The `padding` argument must be one of "valid", "same" (or "causal" for Conv1D). Received: mutpy
+for 12, error:The `padding` argument must be one of "valid", "same" (or "causal" for Conv1D). Received: 
+for 13, error:Input 0 is incompatible with layer conv2d_3: expected ndim=4, found ndim=3
+for 14, error:Unknown activation function:mutpy
+for 15, error:Unknown activation function:
+for 19, error:Unknown activation function:mutpy
+for 20, error:Unknown activation function:
+for 27, error:The `padding` argument must be one of "valid", "same" (or "causal" for Conv1D). Received: mutpy
+for 28, error:The `padding` argument must be one of "valid", "same" (or "causal" for Conv1D). Received: 
+for 29, error:Unknown activation function:mutpy
+for 30, error:Unknown activation function:
+for 34, error:Unknown activation function:mutpy
+for 35, error:Unknown activation function:
+for 40, error:Unknown activation function:mutpy
+for 41, error:Unknown activation function:
+for 43, error:Unknown activation function:mutpy
+for 44, error:Unknown activation function:
+for 47, error:Unknown loss function:mutpy
+for 48, error:Unknown loss function:
+for 49, error:Unknown metric function:mutpy
+for 50, error:Unknown metric function:
+for 51, error:data type "mutpy" not understood
+for 52, error:data type "" not understood
+for 53, error:data type "mutpy" not understood
+for 54, error:data type "" not understood
+for 60, error:name 'num_classes' is not defined
+for 61, error:name 'batch_size' is not defined
+for 62, error:name 'epochs' is not defined
+for 63, error:Error when checking target: expected activation_18 to have shape (10,) but got array with shape (1,)
+for 64, error:Error when checking target: expected activation_24 to have shape (10,) but got array with shape (1,)
+for 84, error:name 'opt' is not defined
+for 85, error:You must compile a model before training/testing. Use `model.compile(optimizer, loss)`.
+for 86, error:No loop matching the specified signature and casting
+was found for ufunc true_divide
+for 87, error:No loop matching the specified signature and casting
+was found for ufunc true_divide
+for 92, error:Input 0 is incompatible with layer conv2d_33: expected ndim=4, found ndim=5
+errNum:35
